@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Connect to the running MySQL container using the MySQL CLI as root
-sudo docker exec -it mybackend-db mysql -u root -p
+# Connect to the running docker container
+docker exec -it mybackend-db bash
