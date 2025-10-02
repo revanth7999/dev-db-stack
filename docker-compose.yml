@@ -12,6 +12,7 @@ services:
       - mysql-data:/var/lib/mysql
     networks:
       - my_shared_network
+    restart: unless-stopped
 
 volumes:
   mysql-data:
